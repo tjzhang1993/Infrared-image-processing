@@ -42,6 +42,6 @@ end
 end
 end
  end
-figure(),imshow(segmented_images{1}), title('叠加结果结果——区域1');
-figure(),imshow(segmented_images{2}), title('叠加结果结果——区域2');        
-figure(),imshow(segmented_images{3}), title('叠加结果结果——区域3');
+figure(),imshow(segmented_images{1}), title('叠加结果——区域1');
+figure(),imshow(segmented_images{2}), title('叠加结果——区域2');        
+figure(),imshow(segmented_images{3}), title('叠加结果——区域3');
