@@ -1,11 +1,12 @@
 %% OTSU
-[file_name, pathname] = uigetfile( '*.*','????????????');
+[file_name, pathname] = uigetfile( '*.*','choose an image');
 I = imread([pathname,'/',file_name]); 
 
 level = graythresh(I);
 BW = im2bw(I,level);
 imshow(BW)
-%% multi-OTSU
+
+%% multi-OTSU for a plie of images
 clc;
 clear;
 pathname=uigetdir('*.*','select a dir');
